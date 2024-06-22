@@ -462,15 +462,14 @@ body {
   height: 70px
 }
 
-
 .profile-container {
   display: flex;
   align-items: center;
 }
 
 .profile-image {
-  width: 110px;
-  height: 110px;
+  width: 120px;
+  height: 120px;
   border: 1px solid #FF7B29;
 }
 
@@ -478,9 +477,9 @@ body {
   margin-left: 20px;
 }
 
-.profile-info{
+.profile-info {
   font-weight: 400;
-  font-size: 11.38px;
+  font-size: 10px;
   line-height: 16.39px;
   color: #16314E; 
 }
@@ -498,20 +497,42 @@ body {
   margin-left: 3px;
 }
 
-.profile-name{
+.profile-name {
   font-weight: 700;
-  font-size: 25.5px;
+  font-size: 18px;
   line-height: 30.21px;
   color: #020202;
 }
 
-.profile-button{
+.profile-button {
   background-color: #FFF8F4;
   color: #FF7B29;
-  border:0.5px solid #FF7B29;
+  border: 0.5px solid #FF7B29;
   border-radius: 34.14px;
   padding: 7px 20px;
   max-width: 85px;
 }
 
+.no-reviews {
+  margin-left: 60px; 
+  font-weight: 400;
+  color: #010101;
+  font-size: 13px;
+  line-height: 23.66px;
+}
 
+.open-profile {
+  position: absolute;
+  right: 10px; 
+  top: 80%;
+  transform: translateY(-50%);
+  background-color: #FF7B29;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 79.19px;
+  padding: 5px 10px;
+  line-height: 17.35px;
+  letter-spacing: -0.16px;
+  font-weight: 400;
+  font-size: 11.04px;
+}
